@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'node-agent1' }
+    agent { label 'agent-node1' }
     options {
         buildDiscarder(logRotator(numToKeepStr: '5'))
     }
